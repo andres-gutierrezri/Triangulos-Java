@@ -1,0 +1,38 @@
+# Archivos compilados de Java
+*.class
+
+# Archivos empaquetados / de build
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+target/
+out/
+bin/
+build/
+
+# Configuracion de IDEs y de Java
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+nbproject/
+.gradle/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*~
+
+# Logs y temporales
+*.log
+*.tmp
+*.swp
