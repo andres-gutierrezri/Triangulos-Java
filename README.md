@@ -10,6 +10,7 @@ Programa en Java, ejecutado por consola, que determina el tipo de triángulo (eq
 |---|---|
 | `TriangulosJava.java` | Programa principal que clasifica triángulos. |
 | `HelloWorld.java` | Programa de prueba inicial que imprime "Hello World". |
+| `Arithmetic.java` | Ejemplo de manejo de excepciones: intenta dividir `5 / 0` dentro de un `try` y captura la `ArithmeticException` con un `catch`, mostrando su mensaje (`/ by zero`). |
 | `.gitignore` | Excluye archivos compilados (`.class`), de configuración de IDE/Java y del sistema operativo. |
 
 ## Funcionamiento
@@ -44,7 +45,21 @@ javac TriangulosJava.java
 java TriangulosJava
 ```
 
-## Ejemplo de uso
+Las otras clases se compilan y ejecutan igual:
+
+```bash
+javac HelloWorld.java Arithmetic.java
+java HelloWorld
+java Arithmetic
+```
+
+Salida esperada de `Arithmetic`:
+
+```text
+ArithmeticException => / by zero
+```
+
+## Ejemplo de uso de `TriangulosJava`
 
 ```text
 Ingrese el lado 1: 1
